@@ -71,9 +71,8 @@ _This interface doesn't inherit any property._
 _This interface doesn't inherit any method._
 
 - {{domxref("NodeIterator.detach()")}} {{deprecated_inline}}
-  - : This operation is a no-op. It doesn't do anything. Previously it was telling the
-    engine that the `NodeIterator` was no more used, but this is now
-    useless.
+  - : This operation is a no-op. It doesn't do anything. Previously it told the browser
+    engine that the `NodeIterator` would not be used anymore, and would deactivate the `NodeIterator`, but this now does nothing.
 - {{domxref("NodeIterator.previousNode()")}}
   - : Returns the previous {{domxref("Node")}} in the document, or `null` if
     there are none.
